@@ -11,7 +11,7 @@ new_data = pd.DataFrame({
         'Fan_Speed_RPM':[65],
         'Humidity_Percent':[95],
         'Traffic_Load':[25],
-        'Tower_Age_Years':[12]
+        'Tower_Age_Years':[15]
     })
 
 prediction = model.predict(new_data)
